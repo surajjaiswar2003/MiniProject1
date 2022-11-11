@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".test_biology">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp">
+
+
+        <TextView
+
+            android:id="@+id/textView"
+            android:layout_width="363dp"
+            android:layout_height="99dp"
+            android:layout_marginEnd="165dp"
+            android:fontFamily="@font/aclonica"
+            android:gravity="center"
+            android:text="SOIL BIOLOGY TESTS"
+            android:textColor="#00BCD4"
+            android:textSize="34sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.482"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="361dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:text="The soil is alive. In just one teaspoon of agricultural soil there can be one hundred million to one billion bacteria, six to nine feet of fungal strands put end to end, several thousand flagellates and amoeba, one to several hundred ciliates, hundreds of nematodes, up to one hundred tiny soil insects, and even earthworms. These organisms are essential for healthy growth of your plants."
+            android:textColor="@color/gray"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="104dp" />
+
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/baloo"
+            android:text="Soil Organisms"
+            android:textColor="#9C27B0"
+            android:textSize="20sp"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="465dp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="358dp"
+            android:layout_height="201dp"
+            android:gravity="left"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:text="@string/measure_the_animal_life_in_your_soil_by_digging_down_at_least_6_inches_and_peering_intently_into_the_hole_for_4_minutes_tick_off_the_number_and_species_of_each_organism_observed_such_as_centipedes_ground_beetles_and_spiders_because_most_soil_organisms_spurn_daylight_gently_probe_the_soil_to_unearth_the_shyer_residents_if_you_count_less_than_10_your_soil_does_not_have_enough_active_players_in_the_food_chain_n_na_thriving_population_of_diverse_fungi_bacteria_insects_and_invertebrates_is_one_of_the_most_visible_signs_of_soil_quality_the_more_that_creeps_and_crawls_under_your_garden_the_less_opportunity_there_is_for_pests_and_disease_each_level_of_soil_life_does_its_part_to_break_down_plant_residue_and_make_more_nutrients_available_for_plant_growth"
+            android:textColor="@color/black"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="492dp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="238dp"
+            android:src="@drawable/soil_life"/>
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/baloo"
+            android:text="\nSmell Test ____\n\t\t\t\t\t\t\t\t\t\t\t\t\t↓"
+            android:textColor="#000000"
+            android:textSize="15sp"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="465dp" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:text="A lot of people love that fresh-dirt smell. The surprising thing, though, is that it isn’t coming from the soil itself. Microbiologists have traced the pleasant odor to an organic chemical called geosmin. Geosmin is produced by the gram-positive bacteria Streptomyces coelicolor, and released. The human nose is extremely sensitive to geosmin and can detect it at concentrations as low as 5 parts per trillion."
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:textColor="@color/black"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="492dp" />
+
+
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/baloo"
+            android:text="\nEarthworms__\n\t\t\t\t\t\t\t\t\t\t\t\t\t↓"
+            android:textColor="#000000"
+            android:textSize="15sp"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="465dp" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:text="Worm Count is an inexpensive method to assess biological activity. Abundant earthworms indicate a healthy soil food web. An absence of worms (except in the desert or alpine meadow) means that the soil is too acidic, too alkaline, lacks organic matter, is over tilled, or otherwise too unhealthy to support a vibrant soil food."
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:textColor="@color/black"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="492dp" />
+
+        <ImageView
+
+            android:layout_width="373dp"
+            android:layout_height="95dp"
+            android:src="@drawable/worm" />
+
+    </LinearLayout>
+</ScrollView>

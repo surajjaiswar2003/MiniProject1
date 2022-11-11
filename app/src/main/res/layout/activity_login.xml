@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".login">
+
+    <ImageView
+        android:id="@+id/login_logo"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:contentDescription="TODO"
+        android:src="@drawable/login_logo" />
+
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="@font/aclonica"
+        android:text="Welcome User"
+        android:textColor="#734D36"
+        android:textSize="30sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="cursive"
+        android:text="Login to Continue"
+        android:textColor="@color/green"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:id="@+id/password_input_field2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="0dp"
+        android:orientation="vertical"
+        tools:ignore="ExtraText">
+
+
+        //Username Design------->
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/username_text_field_design"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Username"
+            android:paddingBottom="5dp">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@id/username_text_field_design"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:minHeight="48dp" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        //Password Design-------->
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/password_input_field"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="Password"
+            app:passwordToggleEnabled="true"
+            app:passwordToggleTint="@color/green">
+
+            <com.google.android.material.textfield.TextInputEditText
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <LinearLayout
+            android:layout_width="285dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:dividerPadding="5dp"
+            android:orientation="horizontal"
+            android:paddingTop="20dp">
+
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/forgotpasswordbutton"
+                android:layout_width="142dp"
+                android:layout_height="56dp"
+                android:elevation="5dp"
+                android:text="Forgot Password"
+                android:textAlignment="center"
+                app:chipBackgroundColor="@color/white" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/loginbutton"
+                android:layout_width="142dp"
+                android:layout_height="56dp"
+                android:elevation="5dp"
+                android:onClick="loginbuttonclick"
+                android:text="Login"
+                android:textAlignment="center"
+                app:chipBackgroundColor="@color/green" />
+
+        </LinearLayout>
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/signupbutton"
+            android:layout_width="126dp"
+            android:layout_height="56dp"
+            android:layout_gravity="center"
+            android:elevation="5dp"
+            android:text="Signup"
+            android:textAlignment="center"
+            app:chipBackgroundColor="@color/white"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="374dp"
+        android:layout_height="99dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:dividerPadding="5dp"
+        android:orientation="horizontal"
+        android:paddingLeft="95dp"
+        android:paddingTop="20dp">
+
+        <ImageView
+            android:layout_width="67dp"
+            android:layout_height="67dp"
+            android:layout_gravity="center"
+            android:contentDescription="minilogo3"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:paddingRight="10dp"
+            android:src="@drawable/minilogo3" />
+
+        <ImageView
+            android:layout_width="67dp"
+            android:layout_height="67dp"
+            android:layout_gravity="center"
+            android:contentDescription="minilogo3"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:paddingRight="10dp"
+            android:src="@drawable/minilogo2" />
+
+        <ImageView
+            android:layout_width="67dp"
+            android:layout_height="67dp"
+            android:layout_gravity="center"
+            android:contentDescription="minilogo3"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:paddingRight="10dp"
+            android:src="@drawable/minilogo1" />
+    </LinearLayout>
+
+</LinearLayout>
+
+

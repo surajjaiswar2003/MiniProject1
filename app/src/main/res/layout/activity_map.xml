@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".map">
+
+
+    <TextView
+        style="Widget.AppCompat.Button.Borderless.Colored"
+        android:layout_width="match_parent"
+        android:layout_height="104dp"
+        android:fontFamily="@font/baloo"
+        android:background="@drawable/background"
+        android:elevation="10dp"
+        android:gravity="center"
+        android:textColor="@color/drkblue"
+        android:text="@string/select_on_the_state_to_view_map"
+        android:textSize="30sp" />
+
+    <ScrollView
+
+        android:paddingTop="100dp"
+        android:layout_marginBottom="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="20dp"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/India"
+                android:layout_width="match_parent"
+                android:layout_height="71dp"
+                android:elevation="10dp"
+                android:text="India"
+                android:textColor="@color/drkblue"
+                app:backgroundTint="@color/white" />
+
+
+            <Button
+                android:onClick="onClick"
+                android:elevation="10dp"
+                style="Widget.AppCompat.Button.Borderless.Colored"
+                android:id="@+id/Uttar_Pradesh"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                app:backgroundTint="@color/drkblue"
+                android:text="Uttar Pradesh" />
+
+            <Button
+                android:elevation="10dp"
+                android:textColor="@color/drkblue"
+                app:backgroundTint="@color/white"
+                android:id="@+id/Maharashtra"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Maharashtra" />
+
+            <Button
+                android:elevation="10dp"
+                android:textColor="@color/white"
+                app:backgroundTint="@color/drkblue"
+                android:id="@+id/Andhra_Pradesh"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Andhra Pradesh" />
+
+            <Button
+                android:elevation="10dp"
+                android:textColor="@color/drkblue"
+                app:backgroundTint="@color/white"
+                android:id="@+id/Arunachal_Pradesh"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Arunachal Pradesh" />
+
+            <Button
+                android:elevation="10dp"
+                android:textColor="@color/white"
+                app:backgroundTint="@color/drkblue"
+                android:id="@+id/Assam"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Assam	" />
+
+            <Button
+                android:elevation="10dp"
+                android:textColor="@color/drkblue"
+                app:backgroundTint="@color/white"
+                android:id="@+id/Bihar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bihar" />
+
+            <Button
+                android:elevation="10dp"
+                android:textColor="@color/white"
+                app:backgroundTint="@color/drkblue"
+                android:id="@+id/Chhattisgarh"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Chhattisgarh" />
+
+            <Button
+                android:elevation="10dp"
+                android:textColor="@color/drkblue"
+                app:backgroundTint="@color/white"
+                android:id="@+id/Goa"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Goa" />
+
+            <Button
+                android:elevation="10dp"
+                android:textColor="@color/white"
+                app:backgroundTint="@color/drkblue"
+                android:id="@+id/Gujarat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Gujarat" />
+
+            <Button
+                android:elevation="10dp"
+                android:textColor="@color/drkblue"
+                app:backgroundTint="@color/white"
+                android:id="@+id/Haryana"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Haryana" />
+
+            <Button
+                android:elevation="10dp"
+                android:textColor="@color/white"
+                app:backgroundTint="@color/drkblue"
+                android:id="@+id/Himachal_Pradesh"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Himachal Pradesh	" />
+
+            <Button
+                android:textColor="@color/drkblue"
+                app:backgroundTint="@color/white"
+                android:elevation="10dp"
+                android:id="@+id/Jharkhand"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Jharkhand" />
+
+            <Button
+                android:elevation="10dp"
+                android:textColor="@color/white"
+                app:backgroundTint="@color/drkblue"
+                android:id="@+id/Karnataka"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Karnataka" />
+
+            <Button
+                android:elevation="10dp"
+                android:textColor="@color/drkblue"
+                app:backgroundTint="@color/white"
+                android:id="@+id/Kerala"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kerala" />
+
+            <Button
+                android:elevation="10dp"
+                android:textColor="@color/white"
+                app:backgroundTint="@color/drkblue"
+                android:id="@+id/Madhya_Pradesh"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Madhya Pradesh	" />
+
+            <Button
+                android:textColor="@color/drkblue"
+                app:backgroundTint="@color/white"
+                android:id="@+id/Manipur"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Manipur" />
+
+            <Button
+                android:elevation="10dp"
+                android:textColor="@color/white"
+                app:backgroundTint="@color/drkblue"
+                android:id="@+id/Meghalaya"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Meghalaya" />
+
+            <Button
+                android:textColor="@color/drkblue"
+                app:backgroundTint="@color/white"
+                android:id="@+id/Mizoram"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Mizoram" />
+
+            <Button
+                android:elevation="10dp"
+                android:textColor="@color/white"
+                app:backgroundTint="@color/drkblue"
+                android:id="@+id/Nagaland"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nagaland" />
+
+            <Button
+                android:textColor="@color/drkblue"
+                app:backgroundTint="@color/white"
+                android:elevation="10dp"
+                android:id="@+id/Odisha"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Odisha" />
+
+            <Button
+                android:elevation="10dp"
+                android:textColor="@color/white"
+                app:backgroundTint="@color/drkblue"
+                android:id="@+id/Punjab"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Punjab	" />
+
+            <Button
+                android:textColor="@color/drkblue"
+                app:backgroundTint="@color/white"
+                android:elevation="10dp"
+                android:id="@+id/Rajasthan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Rajasthan	" />
+
+            <Button
+                android:elevation="10dp"
+                android:textColor="@color/white"
+                app:backgroundTint="@color/drkblue"
+                android:id="@+id/Sikkim"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sikkim" />
+
+            <Button
+                android:textColor="@color/drkblue"
+                app:backgroundTint="@color/white"
+                android:elevation="10dp"
+                android:id="@+id/Tamil_Nadu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tamil Nadu	" />
+
+            <Button
+                android:elevation="10dp"
+                android:textColor="@color/white"
+                app:backgroundTint="@color/drkblue"
+                android:id="@+id/Telangana"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Telangana" />
+
+            <Button
+                android:textColor="@color/drkblue"
+                app:backgroundTint="@color/white"
+                android:elevation="10dp"
+                android:id="@+id/Tripura"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tripura	" />
+
+            <Button
+                android:textColor="@color/white"
+                app:backgroundTint="@color/drkblue"
+                android:id="@+id/Uttarakhand"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Uttarakhand	" />
+
+            <Button
+                android:elevation="10dp"
+                android:textColor="@color/drkblue"
+                app:backgroundTint="@color/white"
+                android:id="@+id/West_Bengal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="West Bengal	" />
+
+            <Button
+                android:id="@+id/Lakshadweep"
+                android:textColor="@color/white"
+                app:backgroundTint="@color/drkblue"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/lakshadweep" />
+        </LinearLayout>
+
+    </ScrollView>
+
+    </RelativeLayout>

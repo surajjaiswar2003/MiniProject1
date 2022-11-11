@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".test_observation">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp">
+
+
+        <TextView
+
+            android:id="@+id/textView"
+            android:layout_width="367dp"
+            android:layout_height="66dp"
+            android:layout_marginEnd="165dp"
+            android:fontFamily="@font/aclonica"
+            android:gravity="center"
+            android:text="Observation"
+            android:textColor="#00BCD4"
+            android:textSize="34sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.482"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/baloo"
+            android:text="Tilth (condition of the soil)"
+            android:textColor="#E91E63"
+            android:textSize="20sp"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="77dp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:text='@string/tilth_condition_of_the_soil_when_the_soil_is_neither_too_wet_nor_too_dry_dig_a_hole_6_to_10_inches_deep_separate_an_intact_section_about_the_size_of_a_soup_can_and_break_it_apart_with_your_fingers_determine_whether_the_soil_is_cloddy_powdery_or_granular_ideally_your_soil_should_be_made_up_of_different_sized_crumbs_that_will_hold_their_shape_under_slight_pressure_crumbs_or_aggregates_as_soil_scientists_call_them_that_break_apart_only_with_difficulty_mean_your_soil_is_too_hard_soil_that_s_easy_to_work_allows_water_to_reach_roots_efficiently_and_is_less_prone_to_compaction'
+        android:textColor="#050202"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="104dp" />
+
+        <pl.droidsonroids.gif.GifImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/shoveling"/>
+
+
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/baloo"
+            android:text="Compaction"
+            android:textColor="#9C27B0"
+            android:textSize="20sp"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="465dp" />
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:text='Plunge a wire irrigation flag or a straight piece of wire from a coat hanger vertically into the soil at different locations. Mark the depth at which the wire bends. The sooner it bends, the more compacted the soil. A foot or more of easily penetrable soil is ideal. Compacted soil inhibits root growth and water availability, and also keeps earthworms and other vital soil fauna from circulating freely.'
+        android:textColor="#050202"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="492dp" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/soil_compaction_thumbnail"/>
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/baloo"
+            android:text="Color"
+            android:textColor="#673AB7"
+            android:textSize="20sp"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="824dp" />
+
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:text=' Dark soil color typically indicates high soil quality, good health, and abundant fertility. For a more research- based qualitative test, the Spokane County Master Gardener Plant Clinic has a Munsell Soil Color Chart available for in-clinic use. The Munsell System allows for direct comparison of soils anywhere in the world. The system has three components: hue (a specific color), value (lightness and darkness), and chroma (color intensity) that are arranged in books of color chips. Soil is held next to the chips to find a visual match and assigned the corresponding Munsell notation.'
+        android:textColor="#050202"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="851dp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="178dp"
+            android:src="@drawable/colour_chart" />
+
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/baloo"
+            android:text="Root Development"
+            android:textColor="#3F51B5"
+            android:textSize="20sp"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="1234dp" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:text="@string/with_a_shovel_or_hand_trowel_gently_dig_around_a_selected_plant_preferably_a_weed_you_won_t_miss_once_you_ve_reached_root_depth_pull_an_annual_plant_up_and_check_the_extent_of_root_development_searching_for_fine_strands_with_a_white_healthy_appearance_brown_mushy_roots_indicate_serious_drainage_problems_and_a_poor_outlook_for_this_year_s_harvest_stunted_roots_might_also_indicate_disease_or_the_presence_of_root_gnawing_pests_roots_have_the_most_immediate_connection_with_and_reliance_on_soil_quality_without_air_water_biological_activity_and_crumbly_soil_to_grow_in_roots_can_t_do_their_job"
+        android:textColor="#050202"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="1261dp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="400dp"
+            android:src="@drawable/root_test" />
+
+
+    </LinearLayout>
+</ScrollView>

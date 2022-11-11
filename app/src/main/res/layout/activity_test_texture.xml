@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".test_texture">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp">
+
+
+        <TextView
+
+            android:id="@+id/textView"
+            android:layout_width="372dp"
+            android:layout_height="98dp"
+            android:layout_marginEnd="165dp"
+            android:fontFamily="@font/aclonica"
+            android:gravity="center"
+            android:text="TEXTURE/\nSTRUCTURE"
+            android:textColor="#00BCD4"
+            android:textSize="34sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.482"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:paddingBottom="50dp"
+
+            android:text="@string/soil_texture_by_feel_physical_do_you_have_sandy_clay_or_loamy_soil_this_physical_characteristic_is_one_of_the_more_useful_and_often_the_basis_for_future_decisions_regarding_your_soil"
+            android:textColor="@color/gray"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="104dp" />
+
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/baloo"
+            android:text="Feel Test"
+            android:textColor="#9C27B0"
+            android:textSize="20sp"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="465dp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:text='@string/rub_some_moist_soil_between_fingers_n_t_t1_sand_feels_gritty_n_t_t2_silt_feels_smooth_n_t_t3_clays_feel_sticky'
+            android:textColor="@color/black"
+
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="492dp" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/feeltest" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/baloo"
+            android:text="Squeeze Test"
+            android:textColor="#673AB7"
+            android:textSize="20sp"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="824dp" />
+
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+
+            android:text='@string/squeeze_a_moistened_ball_of_soil_out_between_thumb_and_fingers_n_ribbons_less_than_1_inch_n_t_t_t_feels_gritty_coarse_texture_sandy_soil_n_t_t_t_not_gritty_feeling_medium_texture_soil_high_in_silt_n_n_ribbons_1_to_2_inches_n_t_t_t_feels_gritty_medium_texture_soil_n_t_t_t_not_gritty_feeling_fine_texture_soil_n_n_ribbons_greater_than_2_inches_fine_texture_clay_soil'
+            android:textColor="@color/black"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="851dp" />
+
+    </LinearLayout>
+</ScrollView>

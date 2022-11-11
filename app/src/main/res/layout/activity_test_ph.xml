@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".test_ph">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp">
+
+
+        <TextView
+
+            android:id="@+id/textView"
+            android:layout_width="369dp"
+            android:layout_height="115dp"
+            android:layout_marginEnd="165dp"
+            android:fontFamily="@font/aclonica"
+            android:gravity="center"
+            android:text="SOIL pH"
+            android:textColor="#F44336"
+            android:textSize="34sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.482"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="162dp"
+            android:gravity="center"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+
+            android:text="@string/the_ph_acidity_level_of_your_soil_significantly_affects_how_well_your_plants_grow_most_plants_grow_best_in_soil_with_a_fairly_neutral_ph_between_six_and_seven_the_u_s_department_of_agriculture_says_soil_testing_is_an_essential_tool_that_provides_information_on_fertility_and_ph_testing_also_indicates_what_and_how_much_you_should_add_to_perk_up_tired_soil"
+            android:textColor="@color/gray"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="104dp" />
+
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/baloo"
+            android:text="\nPurchase a home soil test/pH meter"
+            android:textColor="#9C27B0"
+            android:textSize="20sp"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="465dp" />
+
+        <ImageView
+            android:layout_width="354dp"
+            android:layout_height="215dp"
+            android:src="@drawable/ph_tester"/>
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:textColor="@color/black"
+            android:text="@string/purchase_a_home_soil_test_ph_meter_you_can_buy_diy_soil_testing_kits_and_probes_online_at_hardware_stores_or_at_garden_centers_costs_range_from_300_up_to_1000_for_more_elaborate_setups_n_n_ph_meter_approx_300_1000_stick_a_probe_into_the_soil_and_it_registers_ph_on_an_attached_meter_n_n_ph_soil_tester_300_1000_mix_soil_with_water_pour_into_a_plastic_container_add_powder_from_capsule_and_shake_compare_the_color_of_water_to_the_adjacent_color_scale_which_indicates_the_ph_n_n_soil_test_kit_300_1000_same_as_the_ph_tester_only_it_adds_three_extra_containers_and_capsules_to_measure_nitrogen_phosphorus_and_potash_note_no_need_to_test_for_nitrogen_because_it_moves_in_and_out_of_soil_so_quickly_that_testing_would_be_meaningless"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="492dp" />
+
+
+        <ImageView
+            android:layout_width="354dp"
+            android:layout_height="215dp"
+            android:src="@drawable/ph_scale_r_01"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:textColor="#050202"
+            android:text="@string/home_test_your_garden_soil_ph_with_vinegar_and_baking_soda_n_n1_collect_one_cup_of_soil_from_the_part_of_your_garden_you_want_to_test_n_n2_put_one_teaspoon_of_soil_into_each_of_two_separate_containers_n_n3_add_1_2_cup_of_vinegar_to_one_container_of_the_soil_if_it_fizzes_you_have_alkaline_soil_with_a_ph_between_7_and_8_if_it_doesn_t_fizz_after_doing_the_vinegar_test_n_n4_add_distilled_water_to_the_other_container_until_the_soil_is_muddy_n_n5_add_1_2_cup_baking_soda_if_it_fizzes_you_have_acidic_soil_most_likely_with_a_ph_between_5_and_6_n_n6_if_your_soil_doesn_t_react_at_all_it_is_neutral_with_a_ph_of_7_and_you_are_very_lucky"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="492dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:text="@string/n_nthe_purchased_kits_and_home_test_can_tell_you_toward_which_end_of_the_soil_ph_scale_your_soil_is_leaning_but_for_an_exact_measurement_you_will_need_to_send_a_soil_sample_out_to_a_lab_for_testing"
+            android:textColor="@color/gray"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="104dp" />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="411dp"
+            android:src="@drawable/bakingsoda_test"/>
+
+
+
+    </LinearLayout>
+</ScrollView>

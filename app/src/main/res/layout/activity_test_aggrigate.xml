@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".test_aggrigate">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp">
+
+
+        <TextView
+
+            android:id="@+id/textView"
+            android:layout_width="372dp"
+            android:layout_height="112dp"
+            android:layout_marginEnd="165dp"
+            android:fontFamily="@font/aclonica"
+            android:gravity="center"
+
+            android:text="SOIL AGGREGATE STABILITY (SLAKE)"
+            android:textColor="#00BCD4"
+            android:textSize="34sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.482"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:text="@string/soil_aggregate_stability_is_widely_recognized_as_a_key_indicator_of_soil_quality_and_health_a_valuable_tool_for_quantifying_soil_stability_a_stability_kit_can_be_inexpensively_and_easily_assembled_with_minimal_tools_n_nthe_slake_test_measures_the_stability_of_soil_when_exposed_to_rapid_wetting_and_should_be_measured_on_air_dried_soil_fragments_or_aggregates_peds_n_nthere_are_affordable_kits_which_allow_for_rapid_data_collection_and_easy_field_evaluation_of_relatively_undisturbed_soil_samples"
+            android:textColor="#050202"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="104dp" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/baloo"
+            android:text="Equipment Needed:"
+            android:textColor="#9C27B0"
+            android:textSize="20sp"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="465dp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:textColor="#050202"
+            android:text="@string/n_two_clear_jars_at_least_32oz_n_two_1_4_mesh_wire_screens_cut_to_fit_onto_top_of_jars_n_dried_soil_peds"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="492dp" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:textColor="#050202"
+            android:text="@string/nthe_slake_test_compares_two_chunks_of_topsoil_in_water_to_see_how_well_and_how_long_they_will_hold_together_here_are_the_steps_n_n1_collect_a_chunk_of_topsoil_a_size_that_would_fit_in_your_hand_from_an_area_where_you_don_t_till_like_a_fencerow_or_a_plot_you_ve_no_tilled_or_had_in_grass_for_many_years_n_n2_get_a_second_spade_full_or_chunk_of_soil_from_a_plot_you_ve_tilled_consistently_it_should_be_the_same_soil_type_as_the_first_sample"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="492dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="319dp"
+            android:gravity="left"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:text="@string/n3_find_two_clear_jars_large_enough_to_hold_the_chunks_of_soil_n_n4_put_together_some_type_of_wire_mesh_that_you_can_hook_at_the_top_of_each_jar_that_will_allow_the_soil_to_be_submerged_in_the_water_yet_be_held_within_the_top_half_of_the_jar_n_n5_insert_the_wire_meshes_into_each_jar_n_n6_fill_the_jars_with_water_n_n7_at_the_same_time_submerge_the_tilled_sample_in_one_jar_and_the_untilled_sample_in_the_other_n_n8_watch_to_see_which_soil_holds_together_and_which_one_falls_apart_the_soil_with_poor_structure_is_the_one_that_will_begin_to_fall_apart"
+            android:textColor="#050202"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="104dp" />
+<ImageView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:src="@drawable/aggrigate"/>
+
+    </LinearLayout>
+</ScrollView>
